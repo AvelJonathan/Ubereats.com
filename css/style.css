@@ -1,0 +1,141 @@
+/*------------------CSS HEADER----------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
+    font-family: helvetica !important;
+}
+
+.shadow-bottom{
+    box-shadow:  0 5px 100px rgb(218, 218, 218);
+    padding-top:20px;
+}
+.navbar{
+    width: 100%;
+    margin-bottom:30px;
+}
+.navbar .form-inline button{
+    margin-left:10px;
+    margin-right:10px;
+}
+form button{
+    width:94px;
+    height:42px;
+    line-height: 13px !important;
+    font-weight: bold !important;
+}
+form button:nth-child(2){
+    width:130px;
+}
+form button:first-of-type{
+    background: white !important;
+    color:black !important;
+    border-color:#92979b !important;
+}
+.btn-dark{
+    background-color:#1f2225 !important;
+}
+.btn-dark:hover{
+    background-color:#414950 !important;
+}
+button{
+    font-weight: bold !important;
+}
+.height-50{
+    height:50px;
+}
+.input-group-text{
+    background: white !important;
+    border-right:none !important;
+}
+.form-control{
+    border-left:none !important;
+}
+.input-group-text img{
+    width:20px;
+    height:auto;
+}
+.row{
+    min-height:70px;
+}
+.btn-full{
+    width:100%;
+}
+.halfh-8{
+    height:80%;
+}
+.halfh-2{
+    height:20%;
+}
+h1{
+    font-size:3.5em !important;
+    font-weight: bold !important;
+}
+
+
+/*------------------CSS CAROUSEL-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+/*.green-test{
+    background: lawngreen;
+}*/
+.carousel-item img{
+    max-width:300px;
+    height: auto;
+}
+.margin-l-20{
+    margin-left:10%;
+}
+h2{
+    color:rgb(37, 37, 37) !important;
+    text-align: left !important;
+    font-size: 3em !important;
+    font-weight: bold !important;
+    width: 100%;
+    
+}
+/*.carousel-caption{              CSS DE BOOTSTRAP
+    position:absolute;
+    right:15%;
+    bottom:20px;
+    left:15%;
+    z-index:10;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:#fff;
+    text-align:center;
+}*/
+
+.carousel-caption{
+    top: 20px !important;
+    bottom:auto !important;
+    width:40% !important;
+}
+.carousel-control-next{
+    width:50px !important;
+    height:50px;
+    margin-top:20% !important;
+    margin-right:10%;
+}
+.carousel-control-next-icon{
+    background-image: url(../img/arrow.png) !important;
+    width:50px !important;
+    height:50px !important;
+    border-radius:3px;
+}
+.carousel-item{
+    width: 90% !important;
+}
+.carousel-control-next-icon{
+    background-color:green !important;
+}
+.padding-top-70{
+    padding-top:70px;
+}
+.padding-bottom-70{
+    padding-bottom: 70px;
+}
+.carousel-indicators li {
+    border-radius: 13px;
+    width: 13px !important;
+    height: 13px !important;
+    background-color: rgb(218, 218, 218);
+    border:2px solid green;
+}
