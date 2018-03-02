@@ -139,3 +139,92 @@ h2{
     background-color: rgb(218, 218, 218);
     border:2px solid green;
 }
+
+
+/*------------------CSS SECTION--------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.section-image {
+    max-width: auto;
+    height: auto;
+}
+
+.section-store {
+    width: 165px;
+    height: 50px;
+}
+
+.section-uber {
+    width: 145px;
+    height: 145px;
+}
+
+.section-ol {
+    list-style: none;
+}
+
+.section-li {
+    padding-top: 50px;
+}
+
+.section-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+.bg-black{
+    background-color: #262626;
+    margin-top:70px;
+}
+.bg-black div, .bg-black li{
+    color:white !important;
+}
+.footer-padding{
+    padding: 54px 42px 54px 64px;
+}
+
+.footer-hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.footer-width_height{
+    width: auto;
+    /*height: 584px;*/
+}
+
+.footer-hr-margin {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.footer-li-padding-bottom {
+    margin-bottom: 12px;
+}
+select{
+    background: #262626 !important;
+    color:white !important;
+    height:40px;
+    border:none !important;
+}
+/* Style all font awesome icons */
+.fa {
+    padding-right: 20px;
+}
+
+.footer-Store {
+    width: 140px;
+    height: 40px;
+    margin-left: 300px;
+}
