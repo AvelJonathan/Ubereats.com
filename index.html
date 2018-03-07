@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ubereats.com</title>
+
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="icon" type="img/ico" href="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/favicon-6540f9632b.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -68,8 +70,8 @@
     </div>
     </div>
 
+    <!-- CAROUSEL------------------------------------------------------------------>
     <div class="container padding-top-70 d-none d-sm-block">
-        <!-- CAROUSEL------------------------------------------------------------------>
         <div class="row padding-top-70 padding-bottom-70 green-test ">
             <div class="col-md-12 carousel-500">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -112,26 +114,26 @@
         </div>
     </div>
 
-    <div class="container-fluid d-sm-none padding-top-70">
+    <div class="container-fluid d-sm-none padding-top-70"><!-- REMPLACEMENT CAROUSEL SMALL DEVICE------------------------>
         <div class="row">
             <div class="col-12">
                 <div class="row">
                     <div class="col-6">
-                        <img class="img-fluid" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-0-06d69d8876.png"
+                        <img class="img-fluid mx-auto" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-0-06d69d8876.png"
                             alt="Commandez les plats que vous aimez auprès des restaurants de votre ville et de vos chaînes préférées.">
                     </div>
                     <div class="col-6 d-flex">
-                        <h2 class="ml-auto">Commandez les plats que vous aimez auprès des restaurants de votre ville et de vos chaînes préférées.</h2>
+                        <h2 class="mx-auto">Commandez les plats que vous aimez auprès des restaurants de votre ville et de vos chaînes préférées.</h2>
                     </div>
                 </div>
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-6 d-flex">
+                    <div class="col-6 d-flex mx-auto">
                         <h2>En quelques clics, passez votre commande et payez avec votre compte Uber.</h2>
                     </div>
                     <div class="col-6">
-                        <img class="img-fluid ml-auto" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-1-f640bd653b.png"
+                        <img class="img-fluid mx-auto" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-1-f640bd653b.png"
                             alt="En quelques clics, passez votre commande et payez avec votre compte Uber.">
                     </div>
                 </div>
@@ -139,11 +141,11 @@
             <div class="col-12">
                 <div class="row">
                     <div class="col-6">
-                        <img class="img-fluid" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-2-aa023078fd.png"
+                        <img class="img-fluid mx-auto" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-2-aa023078fd.png"
                             alt="Suivez la progression de vos plats en temps réel, depuis le restaurant jusqu'à chez vous.">
                     </div>
                     <div class="col-6 d-flex">
-                        <h2 class="ml-auto">Suivez la progression de vos plats en temps réel, depuis le restaurant jusqu'à chez vous.</h2>
+                        <h2 class="mx-auto">Suivez la progression de vos plats en temps réel, depuis le restaurant jusqu'à chez vous.</h2>
                     </div>
                 </div>
             </div>
@@ -169,8 +171,8 @@
                             <br>un clic.</h1>
                     </li>
                     <li class="section-li">
-                        <img class="section-store" src="img/section-AppStore.svg" alt="AppStore">
-                        <img class="section-store" src="img/section-GooglePlay.png" alt="GooglePlay">
+                        <img class="section-store" src="img/AppStore.svg" alt="AppStore">
+                        <img class="section-store" src="img/GooglePlay.png" alt="GooglePlay">
                     </li>
                 </ol>
             </div>
@@ -202,7 +204,7 @@
 
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
-                        <img src="img/footer_ubereats.jpeg" alt="FooterUbereats.com" height="150" width="125">
+                        <img src="img/footer_ubereats.jpeg" class="footer-uber" alt="FooterUbereats.com" height="150" width="125">
                     </div>
                 </div>
                 <hr class="footer-hr footer-hr-margin">
@@ -210,6 +212,7 @@
                     <div class="col-xs-6 col-md-4">
                         <ul class="footer-ul">
                             <li class="footer-li-padding-bottom">
+                                <i class="fa fa-globe"></i>
                                 <select name="Français">
                                     <option value="">Français...</option>
                                     <option value="Afganistan">Afghanistan</option>
@@ -463,45 +466,72 @@
                             </li>
                             <li class="footer-li-padding-bottom">
                                 <!-- Add font awesome icons -->
-                                <a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-twitter"></a>
-                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="a-footer">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="a-footer">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="a-footer">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-xs-6 col-md-4">
                         <ul class="footer-ul">
-                            <li class="footer-li-padding-bottom">A propos d'ubereats</li>
-                            <li class="footer-li-padding-bottom">Devenir Coursier partenaire</li>
-                            <li class="footer-li-padding-bottom">Devenir Restaurant partenaire</li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">A propos d'ubereats</a>
+                            </li>
+                            <a href="#">
+                                <li class="footer-li-padding-bottom">
+                                    <a href="#" class="a-footer">Devenir Coursier partenaire</a>
+                                </li>
+                                <a href="#">
+                                    <li class="footer-li-padding-bottom">
+                                        <a href="#" class="a-footer">Devenir Restaurant partenaire</a>
+                                    </li>
                         </ul>
                     </div>
                     <div class="col-xs-6 col-md-4">
                         <ul class="footer-ul">
-                            <li class="footer-li-padding-bottom">Voir toutes les villes</li>
-                            <li class="footer-li-padding-bottom">Tarifs</li>
-                            <li class="footer-li-padding-bottom">Aide</li>
-                            <li class="footer-li-padding-bottom">FAQ</li>
-                            <li class="footer-li-padding-bottom">Blog</li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">Voir toutes les villes</a>
+                            </li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">Tarifs</a>
+                            </li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">Aide</a>
+                            </li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">FAQ</a>
+                            </li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">Blog</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
+
                 <hr class="footer-hr footer-hr-margin">
                 <div class="row">
-                    <div class="col-offset-3 col-md-3 ">
+                    <div class="col-md-12 d-flex justify-content-center">
                         <img class="footer-Store" src="img/GooglePlay.png" alt="GooglePlay">
-                    </div>
-                    <div class="col-md-3">
                         <img class="footer-Store" src="img/AppStore.svg" alt="AppleStore">
                     </div>
                 </div>
                 <hr class="footer-hr footer-hr-margin">
                 <div class="row">
-                    <div class="col-6 col-md-4">© 2018 Uber Technologies Inc.</div>
-                    <div class="col-6 col-md-4">Confidentialité</div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-xs-6 col-md-4 footer-margin-left">© 2018 Uber Technologies Inc.</div>
+                    <div class="col-xs-6 col-md-4 footer-margin-left">
+                        <a href="#" class="a-footer">Confidentialité</a>
+                    </div>
+                    <div class="col-xs-6 col-md-4 ">
                         <ul class="footer-ul">
-                            <li class="footer-li-padding-bottom">Conditions Générales</li>
+                            <li class="footer-li-padding-bottom">
+                                <a href="#" class="a-footer">Conditions Générales</a>
+                            </li>
                             <li class="footer-li-padding-bottom">v2.0.14</li>
                         </ul>
                     </div>
@@ -510,21 +540,4 @@
         </div>
     </div>
     <!-- FIN FOOTER------------------------------------------------------------------------------------>
-
-
-    <!-- <script>
-        (function($){
-    $(document).ready(function(){
-        var offset = $(".navbar").offset().top;
-        $(document).scroll(function(){
-            var scrollTop = $(document).scrollTop();
-            if(scrollTop > offset){
-                $(".navbar").css("position", "fixed");
-            }
-            else {
-                $(".navbar").css("position", "static");
-            }
-        });
-    });
-})(jQuery);</script>-->
 </body>

@@ -202,7 +202,22 @@ select{
 .footer-Store {
     width: 140px;
     height: 40px;
-    margin-left: 300px;
+    margin-left: 20px;
+}
+.a-footer {
+    color: white;
+}
+.a-footer:hover {
+    color : gainsboro;
+    text-decoration-line: none;
+}
+
+.footer-uber {
+    border-radius : 25px;
+    background-color: #262626;
+}
+.a-background-footer {
+    background-color: #262626;
 }
 /*--------------------------------------MEDIA QUERIE MAX 576----------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
@@ -260,6 +275,15 @@ select{
     }
     .bg-black{
         margin-top:0;
+    }
+    .footer-store{
+        margin-left: 20px;
+    }
+    .bg-black{
+        margin-top:0;
+    }
+    .footer-margin-left{
+        margin-left: 40px;
     }
 }
 /*-------------------------------MEDIA QUERIE MIN 577 MAX 767----------------------------------------*/
