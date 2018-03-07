@@ -59,6 +59,9 @@ button{
 .btn-full{
     width:100%;
 }
+.btn-success{
+    background-color:rgb(16, 180, 16)!important;
+}
 .halfh-8{
     height:80%;
 }
@@ -119,12 +122,13 @@ h2{
     width:50px !important;
     height:50px !important;
     border-radius:3px;
+    opacity:1;
+}
+.carousel-control-next-icon:hover{
+    opacity:1;
 }
 .carousel-item{
     width: 90% !important;
-}
-.carousel-control-next-icon{
-    background-color:green !important;
 }
 .padding-top-70{
     padding-top:70px;
@@ -137,7 +141,7 @@ h2{
     width: 13px !important;
     height: 13px !important;
     background-color: rgb(218, 218, 218);
-    border:2px solid green;
+    border:2px solid rgb(16, 180, 16);
 }
 
 
@@ -147,6 +151,9 @@ h2{
 .section-image {
     max-width: auto;
     height: auto;
+    margin-left: -100px;
+    width: 700px;
+    margin-top: 50px;
 }
 
 .section-store {
@@ -157,6 +164,7 @@ h2{
 .section-uber {
     width: 145px;
     height: 145px;
+    border-radius:25px;
 }
 
 .section-ol {
@@ -170,6 +178,10 @@ h2{
 .section-text {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.section-text span{
+    color:rgb(16, 180, 16);
+    font-weight: bold;
 }
 
 
@@ -229,6 +241,7 @@ select{
     margin-left: 300px;
 }
 
+<<<<<<< HEAD
 .a-footer {
     color:white ;
 }
@@ -236,4 +249,64 @@ select{
 .a-footer:hover {
     color: gainsboro;
     text-decoration-line: none;
+=======
+
+
+@media screen and (max-width: 576px){
+    /*--------------------------------------CAROUSEL---------------------------*/
+    .d-sm-none h2{
+        font-size:24px !important;
+        width:180px;
+        height:300px;
+    }
+    .d-sm-none .img-fluid{
+        width:180px !important;
+    }
+    .shadow-bottom .d-flex{
+        display: none !important;
+    }
+    /*--------------------------------------SECTION----------------------------*/
+.overflow{
+    overflow:hidden;
+}
+.section-image {
+    max-width:400px !important;
+    margin-left: -100px;
+    width: 700px;
+    margin-top: 50px;
+}
+
+.section-store {
+    width: 130px;
+    height: 40px;
+}
+
+.section-uber {
+    width: 80px;
+    height: 80px;
+    border-radius:10px;
+}
+.section-ol {
+    padding-left:25px!important;
+}
+.section-li h1{
+    font-size:2em !important;
+}
+.decal-div{
+    margin-left:400px !important;
+    margin-top:-500px!important;
+}
+.section-text h2{
+    font-size:1.3em!important;
+}
+.section-text .mrg-top-40{
+    margin-top:40px!important;
+}
+    /*--------------------------------------FOOTER-----------------------------*/
+    .footer-store{
+        margin-left:0;
+    }
+    .bg-black{
+        margin-top:0;
+>>>>>>> b859af5867aac5824112aaefbf7eccd7a6c81d57
 }
