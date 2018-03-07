@@ -1,9 +1,8 @@
 /*------------------CSS HEADER----------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
 body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
     font-family: helvetica !important;
 }
-
 .shadow-bottom{
     box-shadow:  0 5px 100px rgb(218, 218, 218);
     padding-top:20px;
@@ -59,6 +58,9 @@ button{
 .btn-full{
     width:100%;
 }
+.btn-success{
+    background-color:rgb(16, 180, 16)!important;
+}
 .halfh-8{
     height:80%;
 }
@@ -69,13 +71,8 @@ h1{
     font-size:3.5em !important;
     font-weight: bold !important;
 }
-
-
 /*------------------CSS CAROUSEL-------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------*/
-/*.green-test{
-    background: lawngreen;
-}*/
 .carousel-item img{
     max-width:300px;
     height: auto;
@@ -91,18 +88,6 @@ h2{
     width: 100%;
     
 }
-/*.carousel-caption{              CSS DE BOOTSTRAP
-    position:absolute;
-    right:15%;
-    bottom:20px;
-    left:15%;
-    z-index:10;
-    padding-top:20px;
-    padding-bottom:20px;
-    color:#fff;
-    text-align:center;
-}*/
-
 .carousel-caption{
     top: 20px !important;
     bottom:auto !important;
@@ -119,12 +104,13 @@ h2{
     width:50px !important;
     height:50px !important;
     border-radius:3px;
+    opacity:1;
+}
+.carousel-control-next-icon:hover{
+    opacity:1;
 }
 .carousel-item{
     width: 90% !important;
-}
-.carousel-control-next-icon{
-    background-color:green !important;
 }
 .padding-top-70{
     padding-top:70px;
@@ -137,47 +123,43 @@ h2{
     width: 13px !important;
     height: 13px !important;
     background-color: rgb(218, 218, 218);
-    border:2px solid green;
+    border:2px solid rgb(16, 180, 16);
 }
-
-
 /*------------------CSS SECTION--------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------*/
-
-.section-image {
-    max-width: auto;
-    height: auto;
+.overflow{
+    overflow:hidden;
 }
-
+.section-image {
+    height: auto;
+    margin-left: -100px;
+    width: 800px;
+}
 .section-store {
     width: 165px;
     height: 50px;
 }
-
 .section-uber {
     width: 145px;
     height: 145px;
+    border-radius:25px;
 }
-
 .section-ol {
     list-style: none;
 }
-
 .section-li {
     padding-top: 50px;
 }
-
 .section-text {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
-
+.section-text span{
+    color:rgb(16, 180, 16);
+    font-weight: bold;
+}
 /*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------*/
-
-
 .bg-black{
     background-color: #262626;
     margin-top:70px;
@@ -188,27 +170,22 @@ h2{
 .footer-padding{
     padding: 54px 42px 54px 64px;
 }
-
 .footer-hr {
     display: block;
     border-style: inset;
     border-width: 1px;
 }
-
 .footer-width_height{
     width: auto;
     /*height: 584px;*/
 }
-
 .footer-hr-margin {
     margin-top: 24px;
     margin-bottom: 24px;
 }
-
 .footer-ul {
     list-style: none;
 }
-
 .footer-li-padding-bottom {
     margin-bottom: 12px;
 }
@@ -226,5 +203,218 @@ select{
 .footer-Store {
     width: 140px;
     height: 40px;
-    margin-left: 300px;
+    margin-left: 20px;
 }
+.a-footer {
+    color: white;
+}
+.a-footer:hover {
+    color : gainsboro;
+    text-decoration-line: none;
+}
+
+.footer-uber {
+    border-radius : 25px;
+    background-color: #262626;
+}
+.a-background-footer {
+    background-color: #262626;
+}
+/*--------------------------------------MEDIA QUERIE MAX 576----------------------------------------*/
+/*--------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 576px){
+/*--------------------------------------CAROUSEL----------------------------------------------------*/
+    .d-sm-none h2{
+        font-size:24px !important;
+        width:180px;
+        height:300px;
+    }
+    .d-sm-none .img-fluid{
+        width:180px !important;
+    }
+    .shadow-bottom .d-flex{
+        display: none !important;
+    }
+    /*--------------------------------------SECTION----------------------------------------------------*/
+    .overflow{
+        overflow:hidden;
+    }
+    .section-image {
+        max-width:400px !important;
+        margin-left: -100px;
+        width: 700px;
+        margin-top: 50px;
+    }
+    .section-store {
+        width: 130px;
+        height: 40px;
+    }
+    .section-uber {
+        width: 80px;
+        height: 80px;
+        border-radius:10px;
+    }
+    .section-ol {
+        padding-left:25px!important;
+    }
+    .section-li h1{
+        font-size:2em !important;
+    }
+    .decal-div{
+        margin-left:400px !important;
+        margin-top:-500px!important;
+    }
+    .section-text h2{
+        font-size:1.3em!important;
+    }
+    .section-text .mrg-top-40{
+        margin-top:40px!important;
+    }
+    /*--------------------------------------FOOTER------------------------------------------------------*/
+    .footer-store{
+        margin-left:0;
+    }
+    .bg-black{
+        margin-top:0;
+    }
+    .footer-store{
+        margin-left: 20px;
+    }
+    .bg-black{
+        margin-top:0;
+    }
+    .footer-margin-left{
+        margin-left: 40px;
+    }
+}
+/*-------------------------------MEDIA QUERIE MIN 577 MAX 767----------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:577px) and (max-width: 767px){
+    /*----------------------------------------GLOBAL----------------------------------------------------*/
+    .container{
+        max-width:700px!important;
+    }
+    /*-------------------------------HEADER--------------------------------------------------------------*/
+    .shadow-bottom .d-flex{
+        display: none !important;
+    }
+    .btn-success{
+        display: none !important;
+    }
+    .padding-bottom-70{
+        padding-bottom:25px !important;
+    }
+    /*---------------------------------------CAROUSEL----------------------------------------------------*/
+    .margin-l-20{
+        margin-left:0;
+    }
+    .carousel-caption{
+        top: 20px !important;
+        bottom:auto !important;
+        width:40% !important;
+    }
+    .carousel-caption h2{
+        color:rgb(37, 37, 37) !important;
+        text-align: left !important;
+        font-size: 2em !important;
+        font-weight: bold !important;
+        margin-left: 50px; 
+    }
+    /*-------------------------------------------SECTION--------------------------------------------------*/
+    .overflow{
+        overflow:hidden;
+    }
+    .section-image {
+        max-width:400px !important;
+        margin-left: -100px;
+        width: 700px;
+        margin-top: 50px;
+    }
+    .section-store {
+        width: 130px;
+        height: 40px;
+    }
+    .section-uber {
+        width: 80px;
+        height: 80px;
+        border-radius:10px;
+    }
+    .section-ol {
+        padding-left:25px!important;
+    }
+    .section-li h1{
+        font-size:2em !important;
+    }
+    .decal-div{
+        margin-left:400px !important;
+        margin-top:-500px!important;
+    }
+    .section-text h2{
+        font-size:1.3em!important;
+    }
+    .section-text .mrg-top-40{
+        margin-top:40px!important;
+    }
+}
+/*-------------------------------MEDIA QUERIE MIN 768 MAX 1199----------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width: 1199px){
+    /*----------------------------------------GLOBAL--------------------------------------------------*/
+    .container{
+        max-width:1000px!important;
+    }
+/*-------------------------------HEADER--------------------------------------------------------------*/
+    .btn-success{
+        width:200px;
+    }
+    .padding-bottom-70{
+        padding-bottom:25px !important;
+    }
+    /*---------------------------------------CAROUSEL------------------------------------------------*/
+    .margin-l-20{
+        margin-left:0;
+    }
+    .carousel-caption{
+        top: 20px !important;
+        bottom:auto !important;
+        width:40% !important;
+    }
+    .carousel-caption h2{
+        color:rgb(37, 37, 37) !important;
+        text-align: left !important;
+        font-size: 2.5em !important;
+        font-weight: bold !important;  
+    }
+    /*-------------------------------------------SECTION-------------------------------------------*/
+    .overflow{
+        overflow:hidden;
+    }
+    .section-image {
+        max-width:1000px !important;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .section-store {
+        width: 130px;
+        height: 40px;
+    }
+    .section-uber {
+        width: 80px;
+        height: 80px;
+        border-radius:10px;
+    }
+    .section-ol {
+        padding-left:25px!important;
+    }
+    .section-li h1{
+        font-size:2em !important;
+    }
+    .decal-div{
+        margin-left:400px !important;
+        margin-top:-500px!important;
+    }
+    .section-text h2{
+        font-size:1.3em!important;
+    }
+}
+
