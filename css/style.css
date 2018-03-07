@@ -228,3 +228,12 @@ select{
     height: 40px;
     margin-left: 300px;
 }
+
+.a-footer {
+    color:white ;
+}
+
+.a-footer:hover {
+    color: gainsboro;
+    text-decoration-line: none;
+}
