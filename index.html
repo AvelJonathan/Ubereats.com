@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ubereats.com</title>
+<link rel="icon" type="img/ico" href="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/favicon-6540f9632b.ico">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -32,7 +33,7 @@
                     </div>
                 </div>
                 <div class="row halfh-2">
-                    <div class="input-group mb-3 col-md-8">
+                    <div class="input-group mb-3 col-md-8 scrollfix">
                             <div class="input-group-prepend">
                               <span class="input-group-text" id="basic-addon1"><img src="img/location.png" alt="location"></span>
                             </div>
@@ -53,7 +54,7 @@
     </div>
 </div>
 
-<div class="container padding-top-70"> <!-- CAROUSEL------------------------------------------------------------------>
+<div class="container padding-top-70 d-none d-sm-block"> <!-- CAROUSEL------------------------------------------------------------------>
     <div class="row padding-top-70 padding-bottom-70 green-test ">
         <div class="col-md-12 carousel-500">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -89,7 +90,33 @@
             </div>
         </div>
     </div>
-</div><!--FIN DE CAROUSEL------------------------------------------------------------------------>
+</div>
+
+<div class="container-fluid d-sm-none padding-top-70">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6"><img class="img-fluid" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-0-06d69d8876.png" alt="Commandez les plats que vous aimez auprès des restaurants de votre ville et de vos chaînes préférées."></div>
+                <div class="col-6 d-flex"><h2 class="ml-auto">Commandez les plats que vous aimez auprès des restaurants de votre ville et de vos chaînes préférées.</h2></div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6 d-flex"><h2>En quelques clics, passez votre commande et payez avec votre compte Uber.</h2></div>
+                <div class="col-6"><img class="img-fluid ml-auto"  src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-1-f640bd653b.png" alt="En quelques clics, passez votre commande et payez avec votre compte Uber."></div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6"><img class="img-fluid" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats/static/images/homepage/tutorial-screenshot-2-aa023078fd.png" alt="Suivez la progression de vos plats en temps réel, depuis le restaurant jusqu'à chez vous."></div>
+                <div class="col-6 d-flex"><h2 class="ml-auto">Suivez la progression de vos plats en temps réel, depuis le restaurant jusqu'à chez vous.</h2></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--FIN DE CAROUSEL------------------------------------------------------------------------>
 
 
 <div class="container"> <!--SECTION -->
@@ -101,7 +128,7 @@
                     <li class="section-li"><img class="section-store" src="img/section-AppStore.svg" alt="AppStore"><img class="section-store" src="img/section-GooglePlay.png" alt="GooglePlay"></li>
                 </ol>
             </div>
-            <div class="col-md-6"><img class="section-image" src="img/section-burger.webp" alt="Burger" width="800" height="685"></div>
+            <div class="col-md-6"><img class="section-image img-fluid" src="img/section-burger.webp" alt="Burger" width="800" height="685"></div>
           </div>
           <div class="section-text"></div>
           <div class="row ">
@@ -422,4 +449,21 @@
         </div> 
     </div>
     </div><!-- FIN FOOTER------------------------------------------------------------------------------------>
+
+
+   <!-- <script>
+        (function($){
+    $(document).ready(function(){
+        var offset = $(".navbar").offset().top;
+        $(document).scroll(function(){
+            var scrollTop = $(document).scrollTop();
+            if(scrollTop > offset){
+                $(".navbar").css("position", "fixed");
+            }
+            else {
+                $(".navbar").css("position", "static");
+            }
+        });
+    });
+})(jQuery);</script>-->
 </body>

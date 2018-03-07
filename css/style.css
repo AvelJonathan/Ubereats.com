@@ -119,12 +119,13 @@ h2{
     width:50px !important;
     height:50px !important;
     border-radius:3px;
+    opacity:1;
+}
+.carousel-control-next-icon:hover{
+    opacity:1;
 }
 .carousel-item{
     width: 90% !important;
-}
-.carousel-control-next-icon{
-    background-color:green !important;
 }
 .padding-top-70{
     padding-top:70px;
@@ -147,6 +148,9 @@ h2{
 .section-image {
     max-width: auto;
     height: auto;
+    margin-left: -100px;
+    width: 700px;
+    margin-top: 50px;
 }
 
 .section-store {
@@ -157,6 +161,7 @@ h2{
 .section-uber {
     width: 145px;
     height: 145px;
+    border-radius:25px;
 }
 
 .section-ol {
@@ -227,4 +232,23 @@ select{
     width: 140px;
     height: 40px;
     margin-left: 300px;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .footer-store{
+        margin-left:0;
+    }
+    .d-sm-none h2{
+        font-size:24px !important;
+        width:180px;
+        height:300px;
+    }
+    .d-sm-none .img-fluid{
+        width:180px !important;
+    }
+    .shadow-bottom .d-flex{
+        display: none !important;
+    }
 }
