@@ -21,7 +21,43 @@
 
 <body>
 
-    <div class="container-fluid shadow-bottom">
+
+        <div class="container-fluid padding-top-20" id="shadow-bottom-s">
+                <!-- HEADER------------------------------------------------------------------>
+                <!--a fixed-top-->
+                <div class="container-fluid padding-bottom-70 padding-0">
+                        <nav class="navbar navbar-expand-lg padding-0">
+                            <div class="row width-100 padding-0">
+                                <div class="col-1 ">
+                                    <a class="navbar-brand height-50" href="#">
+                                        <img src="img/logo.png" alt="logo" width="80px">
+                                    </a>
+                                </div>
+                                <div class="col-5">
+                                    <div class="input-group height-50">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">
+                                                <img src="img/location.png" alt="location">
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control font-size-08" placeholder="Saisissez votre adresse de livraison">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <button class="btn btn-success my-2 my-sm-0 btn-full height-50 width-100 font-size-08" type="submit">Voir les restaurants</button>
+                                </div>
+                                <div class="col-4">
+                                    <form class="form-inline ml-auto">
+                                        <button class="btn btn-sm btn-dark height-50 width-90 font-size-07" type="button" onclick="window.location.href='connexion.html'">Connexion</button>
+                                        <button class="btn btn-sm btn-dark height-50 width-90 font-size-07" type="button">Créer un compte</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+            </div>
+            </div>
+    <div class="container-fluid shadow-bottom-lg" id="shadow-bottom-lg">
         <!-- HEADER------------------------------------------------------------------>
         <!--a fixed-top-->
         <div class="container padding-bottom-70">
@@ -31,7 +67,7 @@
                         <img src="img/logo.png" alt="logo" width="130px">
                     </a>
                     <form class="form-inline ml-auto">
-                        <button class="btn btn-sm btn-dark" type="button">Connexion</button>
+                        <button class="btn btn-sm btn-dark" type="button" onclick="window.location.href='connexion.html'">Connexion</button>
                         <button class="btn btn-sm btn-dark" type="button">Créer un compte</button>
                     </form>
                 </nav>
@@ -69,6 +105,7 @@
         </div>
     </div>
     </div>
+
 
     <!-- CAROUSEL------------------------------------------------------------------>
     <div class="container padding-top-70 d-none d-sm-block">
@@ -541,4 +578,6 @@
         </div>
     </div>
     <!-- FIN FOOTER------------------------------------------------------------------------------------>
+
+    <script src="navbar.js"></script>
 </body>
