@@ -1,4 +1,6 @@
-
+body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
+    font-family: helvetica !important;
+}
 
 .btn-connect {   
     color:rgb(37, 37, 37) !important;
@@ -7,7 +9,143 @@
 }
 
 .padding-section {
-    padding-left: 120px !important;
-    padding-top: 120px !important;
+    padding-left: 100px !important;
+    padding-top: 70px !important;
     padding-bottom: 120px !important;
+    padding-right: 100px !important;
+
+}
+
+.margin-resto {
+    margin-top: 50px;
+}
+
+.hr-width {
+    width: 15%;
+}
+
+.pad-left-resto {
+    padding-left: 50px!important ;
+}
+
+h1{
+    font-size:3.5em !important;
+    font-weight: bold !important;
+}
+
+h2{
+    color:rgb(37, 37, 37) !important;
+    text-align: left !important;
+    font-size: 3em !important;
+    width: 100%;
+    
+}
+
+.navbar{
+    width: 100%;
+    margin-bottom:10px;
+    position: fixed !important;
+    top: 0 !important;
+    background-color: white !important;
+    z-index: 100 !important;
+}
+
+span {
+    font-weight: bold !important;
+}
+
+.btn-width {
+    width: 150px !important;
+}
+
+/*--------------------------------------------------CSS FORMULAIRE------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+.Formulaire {
+    width: 332px !important;
+    height: 662px !important;
+    padding: 32px !important;
+    background-color: #F4F4F4;
+    position: absolute;
+    bottom: 5px;
+    left: 1050px;
+    z-index: 99;
+
+}
+
+.formul select{
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+.formul input {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+.formul button {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+/*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------*/
+.bg-black{
+    background-color: #262626;
+    margin-top:70px;
+}
+.bg-black div, .bg-black li{
+    color:white !important;
+}
+.footer-padding{
+    padding: 54px 42px 54px 64px;
+}
+.footer-hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+.footer-width_height{
+    width: auto;
+    /*height: 584px;*/
+}
+.footer-hr-margin {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.footer-ul {
+    list-style: none;
+}
+.footer-li-padding-bottom {
+    margin-bottom: 12px;
+}
+
+.style-select select{
+    background: #262626 !important;
+    color:white !important;
+    height:40px;
+    border:none !important;
+}
+/* Style all font awesome icons */
+.fa {
+    padding-right: 20px;
+}
+
+.footer-Store {
+    width: 140px;
+    height: 40px;
+    margin-left: 20px;
+}
+.a-footer {
+    color: white;
+}
+.a-footer:hover {
+    color : gainsboro;
+    text-decoration-line: none;
+}
+
+.footer-uber {
+    border-radius : 25px;
+    background-color: #262626;
+}
+.a-background-footer {
+    background-color: #262626;
 }
