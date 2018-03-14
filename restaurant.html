@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ubereats.com</title>
+    <link rel="stylesheet" href="css/restaurant.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -29,11 +30,192 @@
                     Se Connecter
                 </span>
             </nav>
-        </div> <!--------------------------------------------FIN NAVBAR---------------------->
+        </div>
+        <!--------------------------------------------FIN NAVBAR---------------------->
         <div class="row">
             <!------------------------------------------1ERE SECTION-------------------------->
             <div class="col-12 padding-section">
-                <h1>Le moyen le plus<br> rapide</h1><h3>de livrer leurs repas<br> à vos clients</h3>
+                <h1>Le moyen le plus rapide</h1>
+                <br>
+                <h2>de livrer leurs repas à vos
+                    <br> clients.</h2>
+            </div>
+        </div>
+        <!-- ------------------------------------------FIN 1ERE SECTION---------------------------------- -->
+        <!----------------------------------------------------FORM-------------------------- -->
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="signup-title">Devenir Partenaire</div>
+                    <div class="signup-city">
+                        <input type="text" class="form-control" id="City" placeholder="Indiquez votre ville/Pays">
+                    </div>
+                    <div class="signup-restaurant">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Nom du Restaurant">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="CP" placeholder="Code Postal">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="ReseauxSociaux" placeholder="SiteWeb/Facebook/TripAdvisor">
+                        </div>
+                    </div>
+                    <div class="signup-contact">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="Prénom" placeholder="Prénom">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="Nom" placeholder="Nom">
+                        </div>
+                        <select name="title" required="">
+                            <option value="">Votre rôle</option>
+                            <option value="Owner">Propriétaire</option>
+                            <option value="General Manager">Directeur général</option>
+                            <option value="On-Site Manager">Gestionnaire sur site</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Accounting">Comptabilité</option>
+                            <option value="Chef">Chef</option>
+                            <option value="Front of House">Accueil</option>
+                            <option value="Other">Autre</option>
+                        </select>
+                        <div class="form-group">
+                            <input class="text" name="phone" placeholder="Téléphone">
+                        </div>
+                        <div class="form-groupe">
+                            <input class="text" name="email" type="email" placeholder="E-mail">
+                        </div>
+                    </div>
+                    <div class="signup-dropdown">
+                        <div class="select select--num_locations">
+                            <select name="num_locations" required="">
+                                <option value="">Nombre de sites</option>
+                                <option value="1">1</option>
+                                <option value="2-5">2-5</option>
+                                <option value="6-10">6-10</option>
+                                <option value="11-25">11-25</option>
+                                <option value="25+">25+</option>
+                            </select>
+                        </div>
+                        <div class="select select--cuisine_type">
+                            <select name="cuisine_type" required="">
+                                <option value="">Type de cuisine</option>
+                                <option value="African: Other">Africain&nbsp;: autre</option>
+                                <option value="African: Ethiopian">Africain&nbsp;: éthiopien</option>
+                                <option value="Soul Food">Afro-américain</option>
+                                <option value="Wings">Ailes de poulet</option>
+                                <option value="Alcohol">Alcool</option>
+                                <option value="German">Allemand</option>
+                                <option value="American">Américain</option>
+                                <option value="Asian: Other">Asiatique&nbsp;: autre</option>
+                                <option value="Asian Fusion">Asiatique&nbsp;: fusion</option>
+                                <option value="Modern Australian">Australien (Nouvelle cuisine)</option>
+                                <option value="Bar / Pub Food">Bar-restaurant/bistrot</option>
+                                <option value="BBQ">Barbecue</option>
+                                <option value="Burmese">Birman</option>
+                                <option value="Bakery">Boulangerie</option>
+                                <option value="Bubble Tea">Bubble tea</option>
+                                <option value="Burgers">Burgers</option>
+                                <option value="Coffee &amp; Tea">Café et thé</option>
+                                <option value="Cajun / Creole">Cajun/créole</option>
+                                <option value="Caribbean">Caribéen</option>
+                                <option value="Kosher">Casher</option>
+                                <option value="Chinese: Hot Pot">Chinoise&nbsp;: fondue</option>
+                                <option value="Chinese: Other">Chinois&nbsp;: autre</option>
+                                <option value="Chinese: Cantonese">Chinois&nbsp;: cantonais</option>
+                                <option value="Chinese: Noodles &amp; Dumplings">Chinois&nbsp;: nouilles et raviolis</option>
+                                <option value="Chinese: Sichuan">Chinois&nbsp;: Sichuan</option>
+                                <option value="Chinese: Taiwanese">Chinois&nbsp;: taïwanais</option>
+                                <option value="Korean">Coréen</option>
+                                <option value="Dessert: Other">Dessert&nbsp;: autre</option>
+                                <option value="Spanish">Espagnol</option>
+                                <option value="European: Other">Européen&nbsp;: autre</option>
+                                <option value="Fish and Chips">Fish&nbsp;&amp;&nbsp;Chips</option>
+                                <option value="French">Français</option>
+                                <option value="Seafood">Fruits de mer</option>
+                                <option value="Ice Cream &amp; Frozen Yogurt">Glaces et yaourts glacés</option>
+                                <option value="Georgian">Géorgien</option>
+                                <option value="Halal">Halal</option>
+                                <option value="Indian">Indien</option>
+                                <option value="Indonesian">Indonésien</option>
+                                <option value="Italian">Italien</option>
+                                <option value="Japanese: Other">Japonais&nbsp;: autre</option>
+                                <option value="Japanese: Ramen">Japonais&nbsp;: ramen</option>
+                                <option value="Japanese: Sushi">Japonais&nbsp;: sushi</option>
+                                <option value="Juice &amp; Smoothies">Jus et smoothies</option>
+                                <option value="Latin American: Other">Latino-américain&nbsp;: autre</option>
+                                <option value="Malaysian">Malaisien</option>
+                                <option value="Mexican">Mexicain</option>
+                                <option value="Mediterranean">Méditerranéen</option>
+                                <option value="Middle Eastern">Oriental</option>
+                                <option value="Breakfast &amp; Brunch">Petit déjeuner et brunch</option>
+                                <option value="Pizza">Pizza</option>
+                                <option value="Chicken">Poulet</option>
+                                <option value="Comfort Food">Repas détente</option>
+                                <option value="Steakhouse">Restaurant à viande</option>
+                                <option value="Russian">Russe</option>
+                                <option value="Salad / Sandwiches">Salades/sandwichs</option>
+                                <option value="Snacks">Snacks</option>
+                                <option value="Southern">Sud des États-Unis</option>
+                                <option value="Thai">Thaï</option>
+                                <option value="Vietnamese">Vietnamien</option>
+                                <option value="Vegetarian/Vegan">Végétarien/végan</option>
+                                <!-- ngIf: form.countryCode != 'GB' -->
+                                <option value="Other" ng-if="form.countryCode != 'GB'" class="ng-scope">Autre</option>
+                                <!-- end ngIf: form.countryCode != 'GB' -->
+                            </select>
+                        </div>
+                        <div class="select select--weekly_orders">
+                            <select name="weekly_orders">
+                                <option value="">Livraisons hebdomadaires estimées</option>
+                                <option value="1-10">1-10</option>
+                                <option value="11-25">11-25</option>
+                                <option value="26-50">26-50</option>
+                                <option value="51-100">51-100</option>
+                                <option value="100-500">100-500</option>
+                                <option value="500+">500+</option>
+                            </select>
+                        </div>
+                        <div class="select select--offer_delivery">
+                            <select name="offer_delivery">
+                                <option value="">Proposez-vous la livraison actuellement&nbsp;?</option>
+                                <option value="Yes, we have in-house drivers">Oui, nous avons nos propres coursiers</option>
+                                <option value="Yes, we use a delivery service">Oui, nous avons recours à un service de livraison</option>
+                                <option value="No, but planning to offer soon">Non, mais je compte la proposer bientôt</option>
+                                <option value="No">Non</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="signup__submit">
+                        <button class="btn btn--primary btn--green btn--arrow btn--full">
+                            <span>Envoyer</span>
+                        </button>
+                    </div>
+                    <div class="signup__disclaimer">
+                        <div class="legal">Après avoir envoyé ce formulaire, vous serez contacté par un membre de l'équipe Uber.</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- ---------------------------------------------FIN FORM------------------------------------- -->
+        <!-- ------------------------------------VIDEO------------------------------------- -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/canters-deli.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/lettuce-entertain-you.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/starry-kitchen.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -248,17 +248,6 @@ select{
 .a-background-footer {
     background-color: #262626;
 }
-
-/*---------------------------------------------CSS RESTAURANT.HTML---------------------------------------------*/
-.btn-connect {   
-    color:rgb(37, 37, 37) !important;
-    text-align: right !important;
-    text-transform: uppercase;
-}
-
-.padding-section {
-    padding: 30px, 30px, 140px, 140px !important;
-}
 /*--------------------------------------MEDIA QUERIE MAX 576----------------------------------------*/
 /*--------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 576px){
