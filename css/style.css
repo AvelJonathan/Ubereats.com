@@ -1,229 +1,303 @@
 /*------------------CSS HEADER----------------------------------------------------------------------------------------*/
+
 /*--------------------------------------------------------------------------------------------------------------------*/
-body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+imput,
+placeholder,
+button {
     font-family: helvetica !important;
 }
-.shadow-bottom-lg{
-    box-shadow:  0 5px 100px rgb(218, 218, 218);
-    padding-top:20px;
+
+.shadow-bottom-lg {
+    box-shadow: 0 5px 100px rgb(218, 218, 218);
+    padding-top: 20px;
 }
-#shadow-bottom-s{
-    display:none;
-    box-shadow:  0 5px 100px rgb(218, 218, 218);
-    padding-top:20px;
-    position:fixed;
-    z-index:9999;
+
+#shadow-bottom-s {
+    display: none;
+    box-shadow: 0 5px 100px rgb(218, 218, 218);
+    padding-top: 20px;
+    position: fixed;
+    z-index: 9999;
     background: white;
 }
-.navbar{
+
+.navbar {
     width: 100%;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.navbar .form-inline button{
-    margin-left:10px;
-    margin-right:10px;
+
+.navbar .form-inline button {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-form button{
-    width:94px;
-    height:42px;
+
+form button {
+    width: 94px;
+    height: 42px;
     line-height: 13px !important;
     font-weight: bold !important;
 }
-form button:nth-child(2){
-    width:130px;
+
+form button:nth-child(2) {
+    width: 130px;
 }
-form button:first-of-type{
+
+form button:first-of-type {
     background: white !important;
-    color:black !important;
-    border-color:#92979b !important;
+    color: black !important;
+    border-color: #92979b !important;
 }
-.btn-dark{
-    background-color:#1f2225 !important;
+
+.btn-dark {
+    background-color: #1f2225 !important;
 }
-.btn-dark:hover{
-    background-color:#414950 !important;
+
+.btn-dark:hover {
+    background-color: #414950 !important;
 }
-button{
+
+button {
     font-weight: bold !important;
 }
-.height-50{
-    height:50px;
+
+.height-50 {
+    height: 50px;
 }
-.width-100{
-    width:100% !important;
+
+.width-100 {
+    width: 100% !important;
 }
-.width-90{
-    width:45%!important;
-    margin-left:5px!important;
-    margin-right:5px!important;
+
+.width-90 {
+    width: 45% !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
 }
-.padding-0{
-    padding:0!important;
+
+.padding-0 {
+    padding: 0 !important;
 }
-.padding-top-20{
-    padding-top:20px;
+
+.padding-top-20 {
+    padding-top: 20px;
 }
-.font-size-08{
-    font-size:0.8rem!important;
+
+.font-size-08 {
+    font-size: 0.8rem !important;
 }
-.input-group-text{
+
+.input-group-text {
     background: white !important;
-    border-right:none !important;
+    border-right: none !important;
 }
-.form-control{
-    border-left:none !important;
+
+.form-control {
+    border-left: none !important;
 }
-.input-group-text img{
-    width:20px;
-    height:auto;
-}
-.row{
-    min-height:70px;
-}
-.btn-full{
-    width:100%;
-}
-.btn-success{
-    background-color:rgb(16, 180, 16)!important;
-}
-.halfh-8{
-    height:80%;
-}
-.halfh-2{
-    height:20%;
-}
-h1{
-    font-size:3.5em !important;
-    font-weight: bold !important;
-}
-/*------------------CSS CAROUSEL-------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------------------------------*/
-.carousel-item img{
-    max-width:300px;
+
+.input-group-text img {
+    width: 20px;
     height: auto;
 }
-.margin-l-20{
-    margin-left:10%;
+
+.row {
+    min-height: 70px;
 }
-h2{
-    color:rgb(37, 37, 37) !important;
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-success {
+    background-color: rgb(16, 180, 16) !important;
+}
+
+.halfh-8 {
+    height: 80%;
+}
+
+.halfh-2 {
+    height: 20%;
+}
+
+h1 {
+    font-size: 3.5em !important;
+    font-weight: bold !important;
+}
+
+/*------------------CSS CAROUSEL-------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.carousel-item img {
+    max-width: 300px;
+    height: auto;
+}
+
+.margin-l-20 {
+    margin-left: 10%;
+}
+
+h2 {
+    color: rgb(37, 37, 37) !important;
     text-align: left !important;
     font-size: 3em !important;
     font-weight: bold !important;
     width: 100%;
-    
 }
-.carousel-caption{
+
+.carousel-caption {
     top: 20px !important;
-    bottom:auto !important;
-    width:40% !important;
+    bottom: auto !important;
+    width: 40% !important;
 }
-.carousel-control-next{
-    width:50px !important;
-    height:50px;
-    margin-top:20% !important;
-    margin-right:10%;
+
+.carousel-control-next {
+    width: 50px !important;
+    height: 50px;
+    margin-top: 20% !important;
+    margin-right: 10%;
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
     background-image: url(../img/arrow.png) !important;
-    width:50px !important;
-    height:50px !important;
-    border-radius:3px;
-    opacity:1;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 3px;
+    opacity: 1;
 }
-.carousel-control-next-icon:hover{
-    opacity:1;
+
+.carousel-control-next-icon:hover {
+    opacity: 1;
 }
-.carousel-item{
+
+.carousel-item {
     width: 90% !important;
 }
-.padding-top-70{
-    padding-top:70px;
+
+.padding-top-70 {
+    padding-top: 70px;
 }
-.padding-bottom-70{
+
+.padding-bottom-70 {
     padding-bottom: 70px;
 }
+
 .carousel-indicators li {
     border-radius: 13px;
     width: 13px !important;
     height: 13px !important;
-    background-color: #e0dfdf!important;
+    background-color: #e0dfdf !important;
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
     background-color: #fff !important;
-    border:2px solid rgb(16, 180, 16);
+    border: 2px solid rgb(16, 180, 16);
 }
+
 /*------------------CSS SECTION--------------------------------------------------------------------------------------*/
+
 /*-------------------------------------------------------------------------------------------------------------------*/
-.overflow{
-    overflow:hidden;
+
+.overflow {
+    overflow: hidden;
 }
+
 .section-image {
     height: auto;
     margin-left: -100px;
     width: 800px;
 }
+
 .section-store {
     width: 165px;
     height: 50px;
 }
+
 .section-uber {
     width: 145px;
     height: 145px;
-    border-radius:25px;
+    border-radius: 25px;
 }
+
 .section-ol {
     list-style: none;
 }
+
 .section-li {
     padding-top: 50px;
 }
+
 .section-text {
     padding-top: 5px;
     padding-bottom: 50px;
 }
-.section-text span{
-    color:rgb(16, 180, 16);
+
+.section-text span {
+    color: rgb(16, 180, 16);
     font-weight: bold;
 }
+
 /*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
+
 /*-------------------------------------------------------------------------------------------------------------------*/
-.bg-black{
+
+.bg-black {
     background-color: #262626;
-    margin-top:70px;
+    margin-top: 70px;
 }
-.bg-black div, .bg-black li{
-    color:white !important;
+
+.bg-black div,
+.bg-black li {
+    color: white !important;
 }
-.footer-padding{
+
+.footer-padding {
     padding: 54px 42px 54px 64px;
 }
+
 .footer-hr {
     display: block;
     border-style: inset;
     border-width: 1px;
 }
-.footer-width_height{
+
+.footer-width_height {
     width: auto;
     /*height: 584px;*/
 }
+
 .footer-hr-margin {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 .footer-ul {
     list-style: none;
 }
+
 .footer-li-padding-bottom {
     margin-bottom: 12px;
 }
-select{
+
+select {
     background: #262626 !important;
-    color:white !important;
-    height:40px;
-    border:none !important;
+    color: white !important;
+    height: 40px;
+    border: none !important;
 }
+
 /* Style all font awesome icons */
+
 .fa {
     padding-right: 20px;
 }
@@ -233,75 +307,81 @@ select{
     height: 40px;
     margin-left: 20px;
 }
+
 .a-footer {
     color: white;
 }
+
 .a-footer:hover {
-    color : gainsboro;
+    color: gainsboro;
     text-decoration-line: none;
 }
 
 .footer-uber {
-    border-radius : 25px;
+    border-radius: 25px;
     background-color: #262626;
 }
+
 .a-background-footer {
     background-color: #262626;
 }
+
 /*--------------------------------------MEDIA QUERIE MAX 576----------------------------------------*/
+
 /*--------------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 576px){
-/*--------------------------------------HEADER------------------------------------------------------*/
-    #shadow-bottom-s{
-        display:none;
-        box-shadow:  0 5px 100px rgb(218, 218, 218);
-        padding-top:20px;
-        position:fixed;
-        z-index:9999;
+
+@media screen and (max-width: 576px) {
+    /*--------------------------------------HEADER------------------------------------------------------*/
+    #shadow-bottom-s {
+        display: none;
+        box-shadow: 0 5px 100px rgb(218, 218, 218);
+        padding-top: 20px;
+        position: fixed;
+        z-index: 9999;
         background: white;
     }
-    #shadow-bottom-s .navbar-brand{
-        display:none;
+    #shadow-bottom-s .navbar-brand {
+        display: none;
     }
-    .shadow-bottom-lg .d-flex{
+    .shadow-bottom-lg .d-flex {
         display: none !important;
     }
-    .btn-success{
+    .btn-success {
         display: none !important;
     }
-    .padding-bottom-70{
-        padding-bottom:0!important;
+    .padding-bottom-70 {
+        padding-bottom: 0 !important;
     }
-    .col-2 .btn{
-        display:none;
+    .col-2 .btn {
+        display: none;
     }
-    .col-4 .form-inline{
-        display:none;
+    .col-4 .form-inline {
+        display: none;
     }
     .col-5 {
         -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
         max-width: 100% !important;
-      }
-      #shadow-bottom-s .width-100{
-          margin:0 auto;
-      }
-/*--------------------------------------CAROUSEL----------------------------------------------------*/
-    .d-sm-none h2{
-        font-size:24px !important;
-        width:180px;
-        height:300px;
     }
-    .d-sm-none .img-fluid{
-        width:180px !important;
+    #shadow-bottom-s .width-100 {
+        margin: 0 auto;
+    }
+    /*--------------------------------------CAROUSEL----------------------------------------------------*/
+    .d-sm-none h2 {
+        font-size: 24px !important;
+        width: 180px;
+        height: 300px;
+    }
+    .d-sm-none .img-fluid {
+        width: 180px !important;
     }
     /*--------------------------------------SECTION----------------------------------------------------*/
-    .overflow{
-        overflow:hidden;
+    .overflow {
+        overflow: hidden;
     }
     .section-image {
-        max-width:400px !important;
+        max-width: 400px !important;
         margin-left: -100px;
         width: 700px;
         margin-top: 50px;
@@ -313,109 +393,112 @@ select{
     .section-uber {
         width: 80px;
         height: 80px;
-        border-radius:10px;
+        border-radius: 10px;
     }
     .section-ol {
-        padding-left:25px!important;
+        padding-left: 25px !important;
     }
-    .section-li h1{
-        font-size:2em !important;
+    .section-li h1 {
+        font-size: 2em !important;
     }
-    .decal-div{
-        margin-left:400px !important;
-        margin-top:-500px!important;
+    .decal-div {
+        margin-left: 400px !important;
+        margin-top: -500px !important;
     }
-    .section-text h2{
-        font-size:1.3em!important;
+    .section-text h2 {
+        font-size: 1.3em !important;
     }
-    .section-text .mrg-top-40{
-        margin-top:40px!important;
+    .section-text .mrg-top-40 {
+        margin-top: 40px !important;
     }
     /*--------------------------------------FOOTER------------------------------------------------------*/
-    .footer-store{
-        margin-left:0;
+    .footer-store {
+        margin-left: 0;
     }
-    .bg-black{
-        margin-top:0;
+    .bg-black {
+        margin-top: 0;
     }
-    .footer-store{
+    .footer-store {
         margin-left: 20px;
     }
-    .bg-black{
-        margin-top:0;
+    .bg-black {
+        margin-top: 0;
     }
-    .footer-margin-left{
+    .footer-margin-left {
         margin-left: 40px;
     }
 }
+
 /*-------------------------------MEDIA QUERIE MIN 577 MAX 767----------------------------------------*/
+
 /*---------------------------------------------------------------------------------------------------*/
-@media screen and (min-width:577px) and (max-width: 767px){
+
+@media screen and (min-width:577px) and (max-width: 767px) {
     /*----------------------------------------GLOBAL----------------------------------------------------*/
-    .container{
-        max-width:700px!important;
+    .container {
+        max-width: 700px !important;
     }
     /*-------------------------------HEADER--------------------------------------------------------------*/
-    .shadow-bottom-lg .d-flex{
+    .shadow-bottom-lg .d-flex {
         display: none !important;
     }
-    .btn-success{
+    .btn-success {
         display: none !important;
     }
-    .padding-bottom-70{
-        padding-bottom:0 !important;
+    .padding-bottom-70 {
+        padding-bottom: 0 !important;
     }
-    #shadow-bottom-s{
-        display:none;
-        box-shadow:  0 5px 100px rgb(218, 218, 218);
-        padding-top:15px;
-        position:fixed;
-        z-index:9999;
+    #shadow-bottom-s {
+        display: none;
+        box-shadow: 0 5px 100px rgb(218, 218, 218);
+        padding-top: 15px;
+        position: fixed;
+        z-index: 9999;
         background: white;
     }
-    #shadow-bottom-s .navbar-brand{
-        display:none;
+    #shadow-bottom-s .navbar-brand {
+        display: none;
     }
-    .shadow-bottom-lg .d-flex{
+    .shadow-bottom-lg .d-flex {
         display: none !important;
     }
-    .col-2 .btn{
-        display:none;
+    .col-2 .btn {
+        display: none;
     }
-    .col-4 .form-inline{
-        display:none;
+    .col-4 .form-inline {
+        display: none;
     }
     .col-5 {
         -webkit-box-flex: 0 !important;
         -ms-flex: 0 0 100% !important;
         flex: 0 0 100% !important;
         max-width: 100% !important;
-        }
-    #shadow-bottom-s .width-100{
-        margin:0 auto;
+    }
+    #shadow-bottom-s .width-100 {
+        margin: 0 auto;
     }
     /*---------------------------------------CAROUSEL----------------------------------------------------*/
-    .margin-l-20{
-        margin-left:0;
+    .margin-l-20 {
+        margin-left: 0;
     }
-    .carousel-caption{
+    .carousel-caption {
         top: 20px !important;
-        bottom:auto !important;
-        width:40% !important;
+        bottom: auto !important;
+        width: 40% !important;
     }
-    .carousel-caption h2{
-        color:rgb(37, 37, 37) !important;
+    .carousel-caption h2 {
+        color: rgb(37, 37, 37) !important;
         text-align: left !important;
         font-size: 2em !important;
         font-weight: bold !important;
-        margin-left: 50px; 
+        margin-left: 50px;
     }
     /*-------------------------------------------SECTION--------------------------------------------------*/
-    .overflow{
-        overflow:hidden;
+    .overflow {
+        overflow: hidden;
     }
     .section-image {
-        max-width:400px !important;
+        max-width: 400px !important;
         margin-left: -100px;
         width: 700px;
         margin-top: 50px;
@@ -427,77 +510,83 @@ select{
     .section-uber {
         width: 80px;
         height: 80px;
-        border-radius:10px;
+        border-radius: 10px;
     }
     .section-ol {
-        padding-left:25px!important;
+        padding-left: 25px !important;
     }
-    .section-li h1{
-        font-size:2em !important;
+    .section-li h1 {
+        font-size: 2em !important;
     }
-    .decal-div{
-        margin-left:400px !important;
-        margin-top:-500px!important;
+    .decal-div {
+        margin-left: 400px !important;
+        margin-top: -500px !important;
     }
-    .section-text h2{
-        font-size:1.3em!important;
+    .section-text h2 {
+        font-size: 1.3em !important;
     }
-    .section-text .mrg-top-40{
-        margin-top:40px!important;
+    .section-text .mrg-top-40 {
+        margin-top: 40px !important;
     }
     /*-----------------------------------------------FOOTER----------------------------------------------*/
-    .footer-margin-left{
+    .footer-margin-left {
         margin-left: 40px;
     }
 }
+
 /*-------------------------------MEDIA QUERIE MIN 768 MAX 1199----------------------------------------*/
+
 /*---------------------------------------------------------------------------------------------------*/
-@media screen and (min-width:768px) and (max-width: 1199px){
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
     /*----------------------------------------GLOBAL--------------------------------------------------*/
-    .container{
-        max-width:1000px!important;
+    .container {
+        max-width: 1000px !important;
     }
-/*-------------------------------HEADER--------------------------------------------------------------*/
-    .btn-success{
-        width:200px;
+    /*-------------------------------HEADER--------------------------------------------------------------*/
+    .btn-success {
+        width: 200px;
     }
-    .padding-bottom-70{
-        padding-bottom:25px !important;
+    .padding-bottom-70 {
+        padding-bottom: 25px !important;
     }
-    #shadow-bottom-s{
-        padding-left:30px !important;
+    #shadow-bottom-s {
+        padding-left: 30px !important;
     }
-    #shadow-bottom-s .padding-bottom-70{
-        padding-bottom:0 !important;
+    #shadow-bottom-s .padding-bottom-70 {
+        padding-bottom: 0 !important;
     }
-    #shadow-bottom-s .col-1, #shadow-bottom-s .col-2,  #shadow-bottom-s .col-5, #shadow-bottom-s .col-4{
-        padding-left:5px !important;
-        padding-right:5px !important;
+    #shadow-bottom-s .col-1,
+    #shadow-bottom-s .col-2,
+    #shadow-bottom-s .col-5,
+    #shadow-bottom-s .col-4 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
-    .navbar-brand img{
-        margin-left:-10px;
+    .navbar-brand img {
+        margin-left: -10px;
     }
     /*---------------------------------------CAROUSEL------------------------------------------------*/
-    .margin-l-20{
-        margin-left:0;
+    .margin-l-20 {
+        margin-left: 0;
     }
-    .carousel-caption{
+    .carousel-caption {
         top: 20px !important;
-        bottom:auto !important;
-        width:40% !important;
+        bottom: auto !important;
+        width: 40% !important;
     }
-    .carousel-caption h2{
-        color:rgb(37, 37, 37) !important;
+    .carousel-caption h2 {
+        color: rgb(37, 37, 37) !important;
         text-align: left !important;
         font-size: 2.5em !important;
-        font-weight: bold !important;  
+        font-weight: bold !important;
     }
     /*-------------------------------------------SECTION-------------------------------------------*/
-    .overflow{
-        overflow:hidden;
+    .overflow {
+        overflow: hidden;
     }
     .section-image {
-        max-width:1000px !important;
+        max-width: 1000px !important;
         margin-left: 0;
         margin-top: 50px;
     }
@@ -508,24 +597,23 @@ select{
     .section-uber {
         width: 80px;
         height: 80px;
-        border-radius:10px;
+        border-radius: 10px;
     }
     .section-ol {
-        padding-left:25px!important;
+        padding-left: 25px !important;
     }
-    .section-li h1{
-        font-size:2em !important;
+    .section-li h1 {
+        font-size: 2em !important;
     }
-    .decal-div{
-        margin-left:400px !important;
-        margin-top:-500px!important;
+    .decal-div {
+        margin-left: 400px !important;
+        margin-top: -500px !important;
     }
-    .section-text h2{
-        font-size:1.3em!important;
+    .section-text h2 {
+        font-size: 1.3em !important;
     }
-/*-----------------------------------------------------FOOTER--------------------------------*/
-    .footer-margin-left{
+    /*-----------------------------------------------------FOOTER--------------------------------*/
+    .footer-margin-left {
         margin-left: 40px;
     }
 }
-
