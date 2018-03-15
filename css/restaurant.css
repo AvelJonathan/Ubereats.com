@@ -8,6 +8,10 @@ body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
     text-transform: uppercase !important;
 }
 
+.btn-full {
+    width: 100%;
+}
+
 .padding-section {
     padding-left: 100px !important;
     padding-top: 120px !important;
@@ -74,7 +78,7 @@ span {
 /*-------------------------------------------------------------------------------------------------------------------*/
 .Formulaire {
     width: 330px !important;
-    height: 600px !important;
+    height: 650px !important;
     padding: 32px !important;
     background-color: #F4F4F4;
     position: absolute;
@@ -89,20 +93,17 @@ fieldset {
 }
 fieldset select{
     width: 100% !important;
+    padding: 3px 3px !important;
+    box-sizing: border-box !important;
 }
-
 
 fieldset input {
     width: 100% !important;
+    padding: 3px 3px !important;
+    box-sizing: border-box !important;
 }
 
-fieldset input form_w {
-    width: 50% !important;
-}
 
-fieldset button {
-    width: 100% !important;
-}
 /*-- -------------------------------------------------------CSS 2EME CAROUSEL------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------*/
 

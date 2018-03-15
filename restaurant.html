@@ -12,10 +12,12 @@
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/restaurant.js"></script>
 </head>
 
 <body>
@@ -28,7 +30,7 @@
                         <a class="navbar-brand" href="index.html">
                             <img src="img/logo.png" alt="logo" width="130px">
                         </a>
-                        <span class="navbar-text btn-connect">
+                        <span class="navbar-text btn-connect" onclick="window.location.href='connexion.html'">
                             Se Connecter
                         </span>
                     </div>
@@ -66,7 +68,7 @@
                         <fieldset>
                             <input type="text" name="Prénom" placeholder="Prénom">
                             <input type="text" name="Nom" placeholder="Nom">
-                            <select>
+                            <select class="form-control">
                                 <option value="">Votre rôle</option>
                                 <option value="Owner">Propriétaire</option>
                                 <option value="General Manager">Directeur général</option>
@@ -83,7 +85,7 @@
                         </fieldset>
 
                         <fieldset>
-                            <select>
+                            <select class="form-control">
                                 <option value="">Nombre de sites</option>
                                 <option value="1">1</option>
                                 <option value="2-5">2-5</option>
@@ -91,7 +93,7 @@
                                 <option value="11-25">11-25</option>
                                 <option value="25+">25+</option>
                             </select>
-                            <select>
+                            <select class="form-control">
                                 <option value="">Type de cuisine</option>
                                 <option value="African: Other">Africain&nbsp;: autre</option>
                                 <option value="African: Ethiopian">Africain&nbsp;: éthiopien</option>
@@ -157,7 +159,7 @@
                                 <option value="Other" ng-if="form.countryCode != 'GB'" class="ng-scope">Autre</option>
                                 <!-- end ngIf: form.countryCode != 'GB' -->
                             </select>
-                            <select>
+                            <select class="form-control">
                                 <option value="">Livraisons hebdomadaires estimées</option>
                                 <option value="1-10">1-10</option>
                                 <option value="11-25">11-25</option>
@@ -166,8 +168,8 @@
                                 <option value="100-500">100-500</option>
                                 <option value="500+">500+</option>
                             </select>
-                            <select>
-                                <option value="">Proposez-vous la livraison actuellement&nbsp;?</option>
+                            <select class="form-control">
+                                <option value="">Proposez-vous la livraison actuellement?</option>
                                 <option value="Yes, we have in-house drivers">Oui, nous avons nos propres coursiers</option>
                                 <option value="Yes, we use a delivery service">Oui, nous avons recours à un service de livraison</option>
                                 <option value="No, but planning to offer soon">Non, mais je compte la proposer bientôt</option>
@@ -175,12 +177,14 @@
                             </select>
                         </fieldset>
 
-                        <button type="button" class="btn btn-sm btn-success text-left btn-width">
-                            Envoyer
-                            <span class="right-20">
-                                <i class="fas fa-arrow-right"></i>
-                            </span>
-                        </button>
+                        <fieldset>
+                            <button type="button" class="btn btn-sm btn-success btn-full text-left">
+                                Envoyer
+                                <span class="right-20">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </button>
+                        </fieldset>
                 </div>
             </div>
         </div>
@@ -200,7 +204,10 @@
                             <div class="carousel-caption d-none d-md-block pos-txt">
                                 <h1>Marc Canters</h1>
                                 <h3>Canter's deli, Los Angeles</h3>
-                                <i class="fas fa-play"></i>
+                                <button class="btn btn-success btn-lg video" data-video="https://www.youtube.com/embed/qSi6TaXRhdc" data-toggle="modal" data-target="#videoModal">
+                                    <i class="fas fa-play"></i>
+                                </button>
+
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -208,7 +215,9 @@
                             <div class="carousel-caption d-none d-md-block pos-txt">
                                 <h1>Amarit Dulayapaibul</h1>
                                 <h3>Lettuce entertain you, Chicago</h3>
-                                <i class="fas fa-play"></i>
+                                <button class="btn btn-success btn-lg video" data-video="https://www.youtube.com/embed/qSi6TaXRhdc" data-toggle="modal" data-target="#videoModal">
+                                    <i class="fas fa-play"></i>
+                                </button>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -216,7 +225,9 @@
                             <div class="carousel-caption d-none d-md-block pos-txt">
                                 <h1>Nguyen Tran</h1>
                                 <h3>Starry Kitchen, Los Angeles</h3>
-                                <i class="fas fa-play"></i>
+                                <button class="btn btn-success btn-lg video" data-video="https://www.youtube.com/embed/qSi6TaXRhdc" data-toggle="modal" data-target="#videoModal">
+                                    <i class="fas fa-play"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -224,7 +235,21 @@
             </div>
         </div>
     </div>
-    <!-- ------------------------------------------FIN VIDEO-------------------------------- -->
+    <!-- ------------------------------------------FIN CAROUSEL-------------------------------- -->
+    <!-- --------------------------------------------MODAL VIDEO------------------------------ -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------FIN MODAL VIDEO-------------------------------- -->
     <!-- --------------------------------------2eme SECTION--------------------------------- -->
     <div class="container-fluid padding-section">
         <div class="row">
