@@ -196,7 +196,7 @@ fieldset button {
 /*-------------------------------------------------------------------------------------------------------------------*/
 
 .bg-black {
-    background-color: #262626;
+    background-color: black;
     margin-top: 70px;
 }
 
@@ -234,7 +234,7 @@ fieldset button {
 }
 
 .style-select select {
-    background: #262626 !important;
+    background: black !important;
     color: white !important;
     height: 40px;
     border: none !important;
@@ -259,11 +259,6 @@ fieldset button {
 .a-footer:hover {
     color: gainsboro;
     text-decoration-line: none;
-}
-
-.footer-uber {
-    border-radius: 25px;
-    background-color: #262626;
 }
 
 .a-background-footer {
