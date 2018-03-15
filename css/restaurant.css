@@ -1,9 +1,19 @@
-body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+imput,
+placeholder,
+button {
     font-family: helvetica !important;
 }
 
-.btn-connect {   
-    color:rgb(37, 37, 37) !important;
+.btn-connect {
+    color: rgb(37, 37, 37) !important;
     text-align: right !important;
     text-transform: uppercase !important;
 }
@@ -13,7 +23,6 @@ body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
     padding-top: 70px !important;
     padding-bottom: 120px !important;
     padding-right: 100px !important;
-
 }
 
 .margin-resto {
@@ -25,25 +34,24 @@ body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
 }
 
 .pad-left-resto {
-    padding-left: 50px!important ;
+    padding-left: 50px !important;
 }
 
-h1{
-    font-size:3.5em !important;
+h1 {
+    font-size: 3.5em !important;
     font-weight: bold !important;
 }
 
-h2{
-    color:rgb(37, 37, 37) !important;
+h2 {
+    color: rgb(37, 37, 37) !important;
     text-align: left !important;
     font-size: 3em !important;
     width: 100%;
-    
 }
 
-.navbar{
+.navbar {
     width: 100%;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     position: fixed !important;
     top: 0 !important;
     background-color: white !important;
@@ -59,7 +67,9 @@ span {
 }
 
 /*--------------------------------------------------CSS FORMULAIRE------------------------------------------*/
+
 /*-------------------------------------------------------------------------------------------------------------------*/
+
 .Formulaire {
     width: 332px !important;
     height: 662px !important;
@@ -69,10 +79,9 @@ span {
     bottom: 5px;
     left: 1050px;
     z-index: 99;
-
 }
 
-.formul select{
+.formul select {
     width: 100% !important;
     margin-bottom: 10px !important;
 }
@@ -86,45 +95,120 @@ span {
     width: 100% !important;
     margin-bottom: 10px !important;
 }
-/*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
+
+/*----------------------SECTION 2------------------------------------------------------------------------------------*/
+
 /*-------------------------------------------------------------------------------------------------------------------*/
-.bg-black{
+
+/* This is important to make z-indexes work as expexted */
+
+.second-carousel-item {
+    -webkit-perspective: initial;
+    perspective: initial;
+}
+
+/* This is to make the image offset */
+
+.second-carousel-item img {
+    padding: 1rem;
+    max-width: 650px;
+    margin-left: auto !important;
+}
+
+.carousel-panel,
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    right: 50%;
+    width: 50%;
+}
+
+.carousel-panel {
+    background-color: white;
+}
+
+.carousel-overlay {
+    /*
+    Alternatively you could tint this, and 
+    remove the coloring from `.carousel-panel`
+    */
+    /*background-color: rgba(30,80,110,.334);*/
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    align-items: bottom;
+}
+
+p {
+    color: black;
+}
+
+.carousel-indicators {
+    position: absolute;
+    left: 500px;
+    z-index: 9999;
+}
+
+.carousel-indicators>li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+/*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.bg-black {
     background-color: #262626;
-    margin-top:70px;
+    margin-top: 70px;
 }
-.bg-black div, .bg-black li{
-    color:white !important;
+
+.bg-black div,
+.bg-black li {
+    color: white !important;
 }
-.footer-padding{
+
+.footer-padding {
     padding: 54px 42px 54px 64px;
 }
+
 .footer-hr {
     display: block;
     border-style: inset;
     border-width: 1px;
 }
-.footer-width_height{
+
+.footer-width_height {
     width: auto;
     /*height: 584px;*/
 }
+
 .footer-hr-margin {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 .footer-ul {
     list-style: none;
 }
+
 .footer-li-padding-bottom {
     margin-bottom: 12px;
 }
 
-.style-select select{
+.style-select select {
     background: #262626 !important;
-    color:white !important;
-    height:40px;
-    border:none !important;
+    color: white !important;
+    height: 40px;
+    border: none !important;
 }
+
 /* Style all font awesome icons */
+
 .fa {
     padding-right: 20px;
 }
@@ -134,18 +218,21 @@ span {
     height: 40px;
     margin-left: 20px;
 }
+
 .a-footer {
     color: white;
 }
+
 .a-footer:hover {
-    color : gainsboro;
+    color: gainsboro;
     text-decoration-line: none;
 }
 
 .footer-uber {
-    border-radius : 25px;
+    border-radius: 25px;
     background-color: #262626;
 }
+
 .a-background-footer {
     background-color: #262626;
 }
