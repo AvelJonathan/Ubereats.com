@@ -10,7 +10,7 @@ body, p, h1, h2, h3, h4, h5, a, imput, placeholder, button{
 
 .padding-section {
     padding-left: 100px !important;
-    padding-top: 70px !important;
+    padding-top: 120px !important;
     padding-bottom: 120px !important;
     padding-right: 100px !important;
 
@@ -58,11 +58,23 @@ span {
     width: 150px !important;
 }
 
+.pos-txt {
+    right: 1000px !important;
+    bottom: 250px !important;
+}
+
+
+.pos-txt i {
+    font-size: 3.5em;
+    left: 500px !important;
+    bottom: 50px !important;
+    position: absolute;
+}
 /*--------------------------------------------------CSS FORMULAIRE------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------*/
 .Formulaire {
-    width: 332px !important;
-    height: 662px !important;
+    width: 330px !important;
+    height: 600px !important;
     padding: 32px !important;
     background-color: #F4F4F4;
     position: absolute;
@@ -72,20 +84,29 @@ span {
 
 }
 
-.formul select{
+fieldset {
+    margin-bottom: 15px !important;
+}
+fieldset select{
     width: 100% !important;
-    margin-bottom: 10px !important;
 }
 
-.formul input {
+
+fieldset input {
     width: 100% !important;
-    margin-bottom: 10px !important;
 }
 
-.formul button {
-    width: 100% !important;
-    margin-bottom: 10px !important;
+fieldset input form_w {
+    width: 50% !important;
 }
+
+fieldset button {
+    width: 100% !important;
+}
+/*-- -------------------------------------------------------CSS 2EME CAROUSEL------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+
 /*------------------CSS FOOTER---------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------*/
 .bg-black{

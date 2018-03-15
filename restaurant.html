@@ -50,21 +50,22 @@
         <!-- ------------------------------------------FIN 1ERE SECTION---------------------------------- -->
         <!----------------------------------------------------FORM-------------------------- -->
         <div class="container-fluid Formulaire">
-                <div class="row">
-                    <div class="col-12">
-                        <form class="formul">
-                            <h4>Devenir Partenaire</h4>
+            <div class="row">
+                <div class="col-12">
+                    <form class="formul">
+                        <h4>Devenir Partenaire</h4>
+                        <fieldset>
                             <input type="text" name="Ville" placeholder="La Loupe, France">
-                            <br>
+                        </fieldset>
+                        <fieldset>
                             <input type="text" name="Nom" placeholder="Nom du Restaurant">
-                            <br>
                             <input type="text" name="Code Postal" placeholder="Code Postal">
-                            <br>
                             <input type="text" name="ReseauSocial" placeholder="Site Web/Facebook/TripAdvisor">
-                            <br>
+                        </fieldset>
+
+                        <fieldset>
                             <input type="text" name="Prénom" placeholder="Prénom">
                             <input type="text" name="Nom" placeholder="Nom">
-                            <br>
                             <select>
                                 <option value="">Votre rôle</option>
                                 <option value="Owner">Propriétaire</option>
@@ -77,9 +78,11 @@
                                 <option value="Other">Autre</option>
                             </select>
                             <input type="text" name="Telephone" placeholder="Telephone">
-                            <br>
+
                             <input type="text" name="E-mail" placeholder="E-mail">
-                            <br>
+                        </fieldset>
+
+                        <fieldset>
                             <select>
                                 <option value="">Nombre de sites</option>
                                 <option value="1">1</option>
@@ -88,7 +91,6 @@
                                 <option value="11-25">11-25</option>
                                 <option value="25+">25+</option>
                             </select>
-                            <br>
                             <select>
                                 <option value="">Type de cuisine</option>
                                 <option value="African: Other">Africain&nbsp;: autre</option>
@@ -155,7 +157,6 @@
                                 <option value="Other" ng-if="form.countryCode != 'GB'" class="ng-scope">Autre</option>
                                 <!-- end ngIf: form.countryCode != 'GB' -->
                             </select>
-                            <br>
                             <select>
                                 <option value="">Livraisons hebdomadaires estimées</option>
                                 <option value="1-10">1-10</option>
@@ -165,7 +166,6 @@
                                 <option value="100-500">100-500</option>
                                 <option value="500+">500+</option>
                             </select>
-                            <br>
                             <select>
                                 <option value="">Proposez-vous la livraison actuellement&nbsp;?</option>
                                 <option value="Yes, we have in-house drivers">Oui, nous avons nos propres coursiers</option>
@@ -173,17 +173,18 @@
                                 <option value="No, but planning to offer soon">Non, mais je compte la proposer bientôt</option>
                                 <option value="No">Non</option>
                             </select>
-                            <br>
-                            <button type="button" class="btn btn-sm btn-success text-left btn-width">
-                                Envoyer
-                                <span class="right-20">
-                                    <i class="fas fa-arrow-right"></i>
-                                </span>
-                            </button>
-                    </div>
+                        </fieldset>
+
+                        <button type="button" class="btn btn-sm btn-success text-left btn-width">
+                            Envoyer
+                            <span class="right-20">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </button>
                 </div>
             </div>
-            </form>
+        </div>
+        </form>
     </div>
     </div>
     </div>
@@ -196,12 +197,27 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="img/canters-deli.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block pos-txt">
+                                <h1>Marc Canters</h1>
+                                <h3>Canter's deli, Los Angeles</h3>
+                                <i class="fas fa-play"></i>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="img/lettuce-entertain-you.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block pos-txt">
+                                <h1>Amarit Dulayapaibul</h1>
+                                <h3>Lettuce entertain you, Chicago</h3>
+                                <i class="fas fa-play"></i>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="img/starry-kitchen.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block pos-txt">
+                                <h1>Nguyen Tran</h1>
+                                <h3>Starry Kitchen, Los Angeles</h3>
+                                <i class="fas fa-play"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -256,19 +272,6 @@
     <!-- -----------------------------------------------FIN 2EME SECTION--------------------------------- -->
     <!-- -----------------------------------------------------2EME CAROUSEL-------------------------------------- -->
     <div class="container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img class="d-block img-fluid float" src="img/eric-greenspan.jpg" alt="First slide" width="555px" height="555px">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block img-fluid float" src="img/amarit-dulyapaibul.jpg" alt="Second slide" width="555px" height="555px">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block img-fluid float" src="img/marc-canter.jpg" alt="Third slide" width="555px" height="555px">
-                </div>
-            </div>
-        </div>
     </div>
     <!-- ---------------------------------------------------FIN 2EME CAROUSEL-------------------------------- -->
     <!-- --------------------------------------------------------FOOTER------------------------------------------- -->
