@@ -269,11 +269,11 @@ fieldset button {
     background-color: #262626;
 }
 
-/*-------------------------------MEDIA QUERIE MIN 768 MAX 1199----------------------------------------*/
+/*-------------------------------MEDIA QUERIE MIN 770 MAX 1199----------------------------------------*/
 
 /*---------------------------------------------------------------------------------------------------*/
 
-@media screen and (min-width:768px) and (max-width: 1199px) {
+@media screen and (min-width:770px) and (max-width: 1199px) {
     .navbar {
         z-index: 9999;
     }
