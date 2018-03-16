@@ -268,3 +268,120 @@ fieldset button {
 .a-background-footer {
     background-color: #262626;
 }
+
+/*-------------------------------MEDIA QUERIE MIN 768 MAX 1199----------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+    .navbar {
+        z-index: 9999;
+    }
+    .padding-section {
+        padding-left: 50px !important;
+        padding-top: 120px !important;
+        padding-bottom: 50px !important;
+        padding-right: 100px !important;
+    }
+    h1 {
+        font-size: 2.5em !important;
+        font-weight: bold !important;
+        width: 50%;
+    }
+    h2 {
+        color: rgb(37, 37, 37) !important;
+        text-align: left !important;
+        font-size: 2em !important;
+        width: 50%;
+    }
+    /*--------------------Formulaire-----------------------------------------------------------------------*/
+    .Formulaire {
+        width: 330px !important;
+        height: 650px !important;
+        padding: 32px !important;
+        background-color: #F4F4F4;
+        position: absolute;
+        top: 80px;
+        left: 550px;
+        z-index: 99;
+    }
+    fieldset {
+        margin-bottom: 15px !important;
+    }
+    fieldset select {
+        width: 100% !important;
+        padding: 3px 3px !important;
+        box-sizing: border-box !important;
+    }
+    fieldset input {
+        width: 100% !important;
+        padding: 3px 3px !important;
+        box-sizing: border-box !important;
+    }
+    fieldset button {
+        width: 100% !important;
+    }
+    /*----------------------SECTION 2------------------------------------------------------------------------------------*/
+    .padding-lr-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    /* This is important to make z-indexes work as expexted */
+    .second-carousel-item {
+        -webkit-perspective: initial;
+        perspective: initial;
+    }
+    /* This is to make the image offset */
+    .second-carousel-item img {
+        padding: 1rem;
+        max-width: 700px;
+        margin-left: auto !important;
+    }
+    .carousel-panel,
+    .carousel-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        right: 50%;
+        width: 60%;
+        background: white;
+    }
+    .carousel-overlay {
+        /*
+    Alternatively you could tint this, and 
+    remove the coloring from `.carousel-panel`
+    */
+        /*background-color: rgba(30,80,110,.334);*/
+    }
+    .second-carousel-item p {
+        color: black;
+        height: 550px;
+        width: 400px;
+        text-align: center;
+        padding: 20px;
+        padding-top: 100px;
+        font-size: 1.5em;
+    }
+    .second-carousel-item span {
+        font-size: 1em !important;
+    }
+    .carousel-indicators {
+        position: absolute;
+        bottom: 30px;
+        left: 100px;
+        z-index: 5000;
+        width: 200px;
+    }
+    .carousel-indicators>li {
+        height: 10px !important;
+        width: 10px !important;
+        border-radius: 50%;
+        background: #22B03D;
+        border: 2px solid white;
+    }
+    .carousel-indicators .active {
+        background: white;
+        border: 2px solid #22B03D;
+    }
+}
