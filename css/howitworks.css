@@ -137,7 +137,7 @@ h1 {
 
 .container-fluid section {
   width: 100%;
-  height: 85vh;
+  height: 45vh;
   flex: 1;
   display: flex;
   text-align: center;
@@ -149,6 +149,8 @@ h1 {
 
 .container-fluid section:nth-child(1) .image {
   background-image: url(https://storage.googleapis.com/ubereats-about/landing/images/ue_hero_bg_60percent-quality.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container-fluid section .image {
